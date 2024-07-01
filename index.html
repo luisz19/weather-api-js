@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Previsão do tempo</title>
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Weather</h1>
+        <div class="search-element">
+            <input id="search" type="text" placeholder="Digite o nome da cidade">
+            <button id="btn-search" type="submit"><img style="width: 20px;" src="./assets/search.svg" alt=""></button>
+        </div>
+
+        <h3 id="nome">Nome</h3>
+        <div class="container-temp">
+            <figure>
+                <img id="img-weather" alt="Nuvem">
+            </figure>
+            <div class="data">
+                <p id="temp"></p>
+                <p id="weather"></p>
+            </div>
+        </div>
+        <div class="container-info">
+            <div class="temp-max">
+                <img width="30" height="30" src="https://img.icons8.com/?size=100&id=1414&format=png&color=ff6b6b" alt="temperature--v1"/>
+                <div class="same">
+                    <p class="title">Temp. max</p>
+                    <p class="p-info" id="temp-max"></p>
+                </div>
+            </div>
+            <div class="umidade">
+                <img width="25" height="25" src="https://img.icons8.com/?size=100&id=fcF1THrGgtl4&format=png&color=2981d9" alt="">
+                <div class="same">
+                    <p class="title">Umidade</p>
+                    <p class="p-info"  id="umidade"></p>
+                </div>
+            </div>
+            <div class="temp-min">
+                <img width="30" height="30" src="https://img.icons8.com/?size=100&id=1414&format=png&color=4b4bff"/>
+                <div class="same">
+                    <p class="title">Temp. min</p>
+                    <p class="p-info"  id="temp-min"></p>
+                </div>
+            </div>
+            <div class="wind">
+                <img width="30" height="30" src="https://img.icons8.com/?size=100&id=31842&format=png&color=777777" alt="">
+                <div class="same">
+                    <p class="title">Vento</p>
+                    <p class="p-info" id="wind"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
